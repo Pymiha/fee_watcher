@@ -6,14 +6,14 @@ Currently only supports windows OS.
 HOW TO USE
 1. Download fee_watcher.exe and put it in some folder. 
 2. Install tesseract from https://github.com/UB-Mannheim/tesseract/wiki and note down path to tesseract.exe.
-3. Open web browser and metamask and request a transaction - claim or stake tokens. Make sure you have enough funds in wallet and transaction could actually go through. 
+3. Open web browser and MetaMask and request a transaction - claim or stake tokens. Make sure you have enough funds in wallet and transaction could actually go through. 
    Otherwise a warning is displayed and it messes up position of confirm button.
 5. Run fee_watcher.exe. It opens in console window. Open positions.jpg from this repository, to see where to click. Using it for the first time follow through with configuration steps.    When done conf.txt file will be stored in base folder. In case configuration did not end succesfully, delete this file and try again. Delete this file in case of any changes 
-   that move elements on the screen - resolution, browser, changed MetaMAsk window,...
-7. Set some very low value for maximum fee and sure program is correctly reading fee value. Fee values are written to fee_DD_MM_YY.txt file in base folder. 
+   that move elements on the screen - resolution, browser, changed MetaMask window,...
+7. Set some very low value for maximum fee and confirm program is correctly reading fee value. Fee values are written to fee_DD_MM_YY.txt file in base folder. 
    Screenshots are stored in same folder as metamask.png. A new screenshot is taken every 15 seconds. 
 7. For program to work MetaMask must be visible on the screen.
-8. After confirming it properly reads fee value, restart console. Put a sensible maximum fee and let it run. If fee will be lower than set value, transaction will be 
+8. After confirming it properly reads fee value, restart program. Put a sensible maximum fee and let it run. If fee will be lower than set value, transaction will be 
    executed.
    
 DISCLAIMER
